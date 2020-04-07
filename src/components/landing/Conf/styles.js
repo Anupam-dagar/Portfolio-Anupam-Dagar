@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 export const Grid = styled.div`
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 8fr;
   gap: 1.2rem 1.2rem;
 
@@ -27,6 +27,10 @@ export const Item = styled.div`
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
 
   h4 {
+    color: #212121;
+  }
+
+  h5 {
     color: #212121;
   }
 
