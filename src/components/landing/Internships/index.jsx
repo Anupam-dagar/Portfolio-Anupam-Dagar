@@ -39,6 +39,44 @@ export const Internships = () => (
         <Card>
           <Thumbnail>
             <img
+              src={hasura}
+              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
+            />
+          </Thumbnail>
+          <Content>
+            <h4>Software Developer Intern</h4>
+            <h4>Hasura, Bangalore(Remote) </h4>
+            <p>
+              Added a generic toggle component for text to textarea making it easier to add long text. Implemented a
+              generic text to json editor toggle component ensuring a smoother uploading process. Integrated a
+              validation module to the modify section of Hasura’s console.
+            </p>
+          </Content>
+          <Stats>
+            <div>
+              <img src={starIcon} alt="stars" />
+              <span>December 2018 - January 2019</span>
+            </div>
+          </Stats>
+          <InnerContent>
+            <Stats>
+              <div>
+                <img src={starIcon} alt="stars" />
+                <span>
+                  <a href="https://github.com/pulls?q=is%3Apr+author%3AAnupam-dagar+archived%3Afalse+org%3Ahasura+is%3Aclosed">
+                    Pull Requests
+                  </a>
+                </span>
+              </div>
+            </Stats>
+          </InnerContent>
+        </Card>
+      </Item>
+
+      <Item as="a" href="#" target="_blank" rel="noopener noreferrer">
+        <Card>
+          <Thumbnail>
+            <img
               src={fossasia}
               alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
             />
@@ -94,43 +132,6 @@ export const Internships = () => (
               <span>May 2019 - July 2019</span>
             </div>
           </Stats>
-        </Card>
-      </Item>
-      <Item as="a" href="#" target="_blank" rel="noopener noreferrer">
-        <Card>
-          <Thumbnail>
-            <img
-              src={hasura}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
-          </Thumbnail>
-          <Content>
-            <h4>Software Developer Intern</h4>
-            <h4>Hasura, Bangalore(Remote) </h4>
-            <p>
-              Added a generic toggle component for text to textarea making it easier to add long text. Implemented a
-              generic text to json editor toggle component ensuring a smoother uploading process. Integrated a
-              validation module to the modify section of Hasura’s console.
-            </p>
-          </Content>
-          <Stats>
-            <div>
-              <img src={starIcon} alt="stars" />
-              <span>December 2018 - January 2019</span>
-            </div>
-          </Stats>
-          <InnerContent>
-            <Stats>
-              <div>
-                <img src={starIcon} alt="stars" />
-                <span>
-                  <a href="https://github.com/pulls?q=is%3Apr+author%3AAnupam-dagar+archived%3Afalse+org%3Ahasura+is%3Aclosed">
-                    Pull Requests
-                  </a>
-                </span>
-              </div>
-            </Stats>
-          </InnerContent>
         </Card>
       </Item>
     </Grid>

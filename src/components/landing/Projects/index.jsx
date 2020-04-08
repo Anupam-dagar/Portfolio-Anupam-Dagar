@@ -245,8 +245,8 @@ export const Projects = () => (
           <Content>
             <h4>Leave Management Portal</h4>
             <p>
-              A leave management portal which lets employees of an organisation to submit their leaves which can be
-              approved by their supervisors notified via email.
+              A leave management portal which lets employees of a government organisation to submit their leaves which
+              can be approved by their supervisors notified via email.
             </p>
           </Content>
           <Stats>
@@ -255,19 +255,6 @@ export const Projects = () => (
               <span>Built Using: Python Django, Jquery, HTML, CSS</span>
             </div>
           </Stats>
-          <InnerContent>
-            <Stats>
-              <div>
-                <img src={starIcon} alt="stars" />
-                <span>
-                  Live at:{' '}
-                  <a style={{ zIndex: 1 }} href="https://hpgcl.herokuapp.com/">
-                    https://hpgcl.herokuapp.com/
-                  </a>
-                </span>
-              </div>
-            </Stats>
-          </InnerContent>
         </Card>
       </Item>
 

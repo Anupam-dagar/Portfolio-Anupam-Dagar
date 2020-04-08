@@ -1,6 +1,13 @@
 [{
-  "id": 0,
-  "name": "Github",
-  "link": "https://github.com/Anupam-dagar",
-  "icon": "/icons/github.svg"
-}]
+    "id": 0,
+    "name": "Github",
+    "link": "https://github.com/Anupam-dagar",
+    "icon": "/icons/github.svg"
+  },
+  {
+    "id": 1,
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/anupamdagar",
+    "icon": "/icons/linkedin.png"
+  }
+]

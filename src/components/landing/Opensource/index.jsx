@@ -47,42 +47,6 @@ export const Opensource = () => (
           </InnerContent>
         </Card>
       </Item>
-      <Item as="a" href="https://github.com/fossasia" target="_blank" rel="noopener noreferrer">
-        <Card>
-          <Thumbnail>
-            <img
-              src={fossasia}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
-          </Thumbnail>
-          <Content>
-            <h4>Fossasia</h4>
-            <p>
-              FOSSASIA is an organization developing software applications for social change using a wide-range of
-              technologies. It was established 2009. Projects range from Free and Open Source software, to design,
-              graphics and hardware.
-            </p>
-          </Content>
-          <Stats>
-            <div>
-              <img src={starIcon} alt="stars" />
-              <span>
-                <a href="https://github.com/pulls?q=is%3Apr+author%3AAnupam-dagar+archived%3Afalse+org%3Afossasia">
-                  Pull Requests
-                </a>
-              </span>
-            </div>
-          </Stats>
-          <InnerContent>
-            <Stats>
-              <div>
-                <img src={starIcon} alt="stars" />
-                <span>January 2019 - August 2019</span>
-              </div>
-            </Stats>
-          </InnerContent>
-        </Card>
-      </Item>
       <Item as="a" href="https://github.com/hasura#" target="_blank" rel="noopener noreferrer">
         <Card>
           <Thumbnail>
@@ -180,6 +144,42 @@ export const Opensource = () => (
               <div>
                 <img src={starIcon} alt="stars" />
                 <span>March 2019 - Present</span>
+              </div>
+            </Stats>
+          </InnerContent>
+        </Card>
+      </Item>
+      <Item as="a" href="https://github.com/fossasia" target="_blank" rel="noopener noreferrer">
+        <Card>
+          <Thumbnail>
+            <img
+              src={fossasia}
+              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
+            />
+          </Thumbnail>
+          <Content>
+            <h4>Fossasia</h4>
+            <p>
+              FOSSASIA is an organization developing software applications for social change using a wide-range of
+              technologies. It was established 2009. Projects range from Free and Open Source software, to design,
+              graphics and hardware.
+            </p>
+          </Content>
+          <Stats>
+            <div>
+              <img src={starIcon} alt="stars" />
+              <span>
+                <a href="https://github.com/pulls?q=is%3Apr+author%3AAnupam-dagar+archived%3Afalse+org%3Afossasia">
+                  Pull Requests
+                </a>
+              </span>
+            </div>
+          </Stats>
+          <InnerContent>
+            <Stats>
+              <div>
+                <img src={starIcon} alt="stars" />
+                <span>January 2019 - August 2019</span>
               </div>
             </Stats>
           </InnerContent>
