@@ -6,3 +6,4 @@ export * from './Internships';
 export * from './Conf';
 export * from './Opensource';
 export * from './Podcast';
+export * from './WorkExperience';

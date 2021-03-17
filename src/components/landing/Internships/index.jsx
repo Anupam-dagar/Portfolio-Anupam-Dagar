@@ -29,7 +29,7 @@ export const Internships = () => (
           <Stats>
             <div>
               <img src={starIcon} alt="stars" />
-              <span>January 2020 - Present</span>
+              <span>January 2020 - July 2020</span>
             </div>
           </Stats>
         </Card>

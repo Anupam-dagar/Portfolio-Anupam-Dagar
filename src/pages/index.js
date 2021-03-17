@@ -1,11 +1,22 @@
 import React from 'react';
 import { Layout, SEO } from 'components/common';
-import { Intro, Skills, Contact, Projects, Internships, Conf, Opensource, Podcast } from 'components/landing';
+import {
+  Intro,
+  Skills,
+  Contact,
+  Projects,
+  Internships,
+  Conf,
+  Opensource,
+  Podcast,
+  WorkExperience,
+} from 'components/landing';
 
 export default () => (
   <Layout>
     <SEO />
     <Intro />
+    <WorkExperience />
     <Internships />
     <Projects />
     <Opensource />
