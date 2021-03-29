@@ -12,13 +12,15 @@ export const Opensource = () => (
   <Wrapper as={Container} id="conferences">
     <h2>Opensource Contributions</h2>
     <Grid>
-      <Item as="a" href="https://github.com/zulip" target="_blank" rel="noopener noreferrer">
+      <Item
+        as="a"
+        href="https://github.com/pulls?q=is%3Apr+author%3AAnupam-dagar+archived%3Afalse+org%3Azulip+"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Card>
           <Thumbnail>
-            <img
-              src={zulip}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={zulip} alt="Zulip Logo" />
           </Thumbnail>
           <Content>
             <h4>Zulip</h4>
@@ -47,13 +49,15 @@ export const Opensource = () => (
           </InnerContent>
         </Card>
       </Item>
-      <Item as="a" href="https://github.com/hasura#" target="_blank" rel="noopener noreferrer">
+      <Item
+        as="a"
+        href="https://github.com/pulls?q=is%3Apr+author%3AAnupam-dagar+archived%3Afalse+org%3Ahasura"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Card>
           <Thumbnail>
-            <img
-              src={hasura}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={hasura} alt="Hasura Logo" />
           </Thumbnail>
           <Content>
             <h4>Hasura</h4>
@@ -82,13 +86,15 @@ export const Opensource = () => (
           </InnerContent>
         </Card>
       </Item>
-      <Item as="a" href="https://github.com/publiclab" target="_blank" rel="noopener noreferrer">
+      <Item
+        as="a"
+        href="https://github.com/pulls?q=is%3Apr+author%3AAnupam-dagar+archived%3Afalse+org%3Apubliclab"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Card>
           <Thumbnail>
-            <img
-              src={publiclab}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={publiclab} alt="PublicLab Logo" />
           </Thumbnail>
           <Content>
             <h4>Public Lab</h4>
@@ -117,13 +123,15 @@ export const Opensource = () => (
           </InnerContent>
         </Card>
       </Item>
-      <Item as="a" href="https://github.com/elastic" target="_blank" rel="noopener noreferrer">
+      <Item
+        as="a"
+        href="https://github.com/pulls?q=is%3Apr+author%3AAnupam-dagar+archived%3Afalse+org%3Aelastic"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Card>
           <Thumbnail>
-            <img
-              src={elastic}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={elastic} alt="Elastic Logo" />
           </Thumbnail>
           <Content>
             <h4>Elastic</h4>
@@ -149,13 +157,15 @@ export const Opensource = () => (
           </InnerContent>
         </Card>
       </Item>
-      <Item as="a" href="https://github.com/fossasia" target="_blank" rel="noopener noreferrer">
+      <Item
+        as="a"
+        href="https://github.com/pulls?q=is%3Apr+author%3AAnupam-dagar+archived%3Afalse+org%3Afossasia"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Card>
           <Thumbnail>
-            <img
-              src={fossasia}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={fossasia} alt="Fossasia Logo" />
           </Thumbnail>
           <Content>
             <h4>Fossasia</h4>

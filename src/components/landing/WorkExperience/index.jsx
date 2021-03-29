@@ -8,7 +8,7 @@ export const WorkExperience = () => (
   <Wrapper as={Container} id="workexperience">
     <h2>WorkExperience</h2>
     <Grid>
-      <Item as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item>
         <Card>
           <Thumbnail>
             <img src={dtdl} alt="Deutsche Telekom Digital Labs" />

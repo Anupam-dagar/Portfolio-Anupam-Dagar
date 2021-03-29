@@ -22,10 +22,7 @@ export const Projects = () => (
       <Item as="a" href="https://github.com/Anupam-dagar/Portfolio-Generator" target="_blank" rel="noopener noreferrer">
         <Card>
           <Thumbnail>
-            <img
-              src={hoxnox}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={hoxnox} alt="Hoxnox" />
           </Thumbnail>
           <Content>
             <h4>Portfolio Generator</h4>
@@ -92,10 +89,7 @@ export const Projects = () => (
       <Item as="a" href="https://github.com/Ctrl-plus-C/Chiron" target="_blank" rel="noopener noreferrer">
         <Card>
           <Thumbnail>
-            <img
-              src={chiron}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={chiron} alt="Chiron" />
           </Thumbnail>
           <Content>
             <h4>Chiron</h4>
@@ -135,10 +129,7 @@ export const Projects = () => (
       <Item as="a" href="https://github.com/Anupam-dagar/react-Hasura-todo" target="_blank" rel="noopener noreferrer">
         <Card>
           <Thumbnail>
-            <img
-              src={hasura}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={hasura} alt="Hasura" />
           </Thumbnail>
           <Content>
             <h4>React Hasura Todo</h4>
@@ -197,10 +188,7 @@ export const Projects = () => (
       <Item as="a" href="https://github.com/Anupam-dagar/tabmaster" target="_blank" rel="noopener noreferrer">
         <Card>
           <Thumbnail>
-            <img
-              src={tabmaster}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={tabmaster} alt="Tabmaster" />
           </Thumbnail>
           <Content>
             <h4>Tabmaster</h4>
@@ -237,10 +225,7 @@ export const Projects = () => (
       >
         <Card>
           <Thumbnail>
-            <img
-              src={django}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={django} alt="Leave Management Portal" />
           </Thumbnail>
           <Content>
             <h4>Leave Management Portal</h4>
@@ -266,10 +251,7 @@ export const Projects = () => (
       >
         <Card>
           <Thumbnail>
-            <img
-              src={ge}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={ge} alt="GitHub Education Portfolio" />
           </Thumbnail>
           <Content>
             <h4>GitHub Education Portfolio</h4>
@@ -332,10 +314,7 @@ export const Projects = () => (
       >
         <Card>
           <Thumbnail>
-            <img
-              src={django}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={django} alt="RESTAPI and Websocket Backend" />
           </Thumbnail>
           <Content>
             <h4>RESTAPI and Websocket Backend</h4>
@@ -374,10 +353,7 @@ export const Projects = () => (
       >
         <Card>
           <Thumbnail>
-            <img
-              src={reactredux}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={reactredux} alt="React Redux Saga Learning Project" />
           </Thumbnail>
           <Content>
             <h4>React Redux Saga Learning Project</h4>
@@ -416,10 +392,7 @@ export const Projects = () => (
       >
         <Card>
           <Thumbnail>
-            <img
-              src={fb}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={fb} alt="Data Visualisation of Facebook Chat" />
           </Thumbnail>
           <Content>
             <h4>Data Visualisation of Facebook Chat</h4>
@@ -473,10 +446,7 @@ export const Projects = () => (
       <Item as="a" href="https://github.com/Anupam-dagar/chrominal-extension" target="_blank" rel="noopener noreferrer">
         <Card>
           <Thumbnail>
-            <img
-              src={googlechrome}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={googlechrome} alt="Chrominal" />
           </Thumbnail>
           <Content>
             <h4>Chrominal</h4>
@@ -522,10 +492,7 @@ export const Projects = () => (
       >
         <Card>
           <Thumbnail>
-            <img
-              src={django}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={django} alt="Library Management System" />
           </Thumbnail>
           <Content>
             <h4>Library Management System</h4>
@@ -558,10 +525,7 @@ export const Projects = () => (
       <Item as="a" href="https://github.com/Anupam-dagar/omega-bot-zulip" target="_blank" rel="noopener noreferrer">
         <Card>
           <Thumbnail>
-            <img
-              src={omega}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={omega} alt="Omega Bot Zulip" />
           </Thumbnail>
           <Content>
             <h4>Omega Bot Zulip</h4>

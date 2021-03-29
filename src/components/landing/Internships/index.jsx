@@ -11,13 +11,10 @@ export const Internships = () => (
   <Wrapper as={Container} id="internships">
     <h2>Internships</h2>
     <Grid>
-      <Item as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item>
         <Card>
           <Thumbnail>
-            <img
-              src={ntu}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={ntu} alt="NTU Logo" />
           </Thumbnail>
           <Content>
             <h4>Research Assistant</h4>
@@ -35,13 +32,10 @@ export const Internships = () => (
         </Card>
       </Item>
 
-      <Item as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item>
         <Card>
           <Thumbnail>
-            <img
-              src={hasura}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={hasura} alt="Hasura Logo" />
           </Thumbnail>
           <Content>
             <h4>Software Developer Intern</h4>
@@ -73,13 +67,10 @@ export const Internships = () => (
         </Card>
       </Item>
 
-      <Item as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item>
         <Card>
           <Thumbnail>
-            <img
-              src={fossasia}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={fossasia} alt="Fossasia Logo" />
           </Thumbnail>
           <Content>
             <h4>Open Source Developer Intern</h4>
@@ -110,13 +101,10 @@ export const Internships = () => (
           </InnerContent>
         </Card>
       </Item>
-      <Item as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item>
         <Card>
           <Thumbnail>
-            <img
-              src={nucleus}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={nucleus} alt="Nucleus Software Logo" />
           </Thumbnail>
           <Content>
             <h4>Software Developer Intern</h4>

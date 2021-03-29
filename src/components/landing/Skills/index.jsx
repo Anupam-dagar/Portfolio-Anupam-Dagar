@@ -7,10 +7,7 @@ export const Skills = () => (
   <Wrapper id="about">
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img
-          src={dev}
-          alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-        />
+        <img src={dev} alt="Skills" />
       </Thumbnail>
       <Details>
         <h1>Hi There!</h1>

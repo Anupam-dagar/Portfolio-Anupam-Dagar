@@ -5,19 +5,48 @@ import githubuniverse from 'assets/projects/githubuniverse.png';
 import githubsatellite from 'assets/projects/satellite.jpeg';
 import fossasia from 'assets/projects/fossasia.png';
 import pragma from 'assets/projects/pragma.png';
+import hackademic from 'assets/projects/hackademic.png';
 import { Wrapper, Grid, Item, Content, Stats, Thumbnail, InnerContent } from './styles';
 
 export const Conf = () => (
   <Wrapper as={Container} id="conferences">
     <h2>Conferences</h2>
     <Grid>
-      <Item as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item as="a" href="https://youtu.be/8zN9djgoO8A?t=4122" target="_blank" rel="noopener noreferrer">
         <Card>
           <Thumbnail>
-            <img
-              src={githubuniverse}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={hackademic} alt="Hackademic by Hack In The North" />
+          </Thumbnail>
+          <Content>
+            <h4>Remote Talk</h4>
+            <h4>Hackademic by Hack In The North</h4>
+            <p>
+              Delivered a remote talk on <strong>Getting Reactive with Reactive Programming</strong>
+            </p>
+          </Content>
+          <Stats>
+            <div>
+              <img src={starIcon} alt="stars" />
+              <span>IIIT Allahabad, India</span>
+            </div>
+          </Stats>
+          <InnerContent>
+            <Stats>
+              <div>
+                <img src={starIcon} alt="stars" />
+                <span>
+                  <a href="https://youtu.be/8zN9djgoO8A?t=4122">Youtube Link</a>
+                </span>
+              </div>
+            </Stats>
+          </InnerContent>
+        </Card>
+      </Item>
+
+      <Item>
+        <Card>
+          <Thumbnail>
+            <img src={githubuniverse} alt="GitHub Universe Logo" />
           </Thumbnail>
           <Content>
             <h4>Remote Talk</h4>
@@ -36,13 +65,10 @@ export const Conf = () => (
         </Card>
       </Item>
 
-      <Item as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item as="a" href="https://blog.anupamdagar.com/githubsatellite" target="_blank" rel="noopener noreferrer">
         <Card>
           <Thumbnail>
-            <img
-              src={githubsatellite}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={githubsatellite} alt="GitHub Satellite Logo" />
           </Thumbnail>
           <Content>
             <h4>Lightening Talk</h4>
@@ -63,20 +89,17 @@ export const Conf = () => (
               <div>
                 <img src={starIcon} alt="stars" />
                 <span>
-                  <a href="https://blog.anupamdagar.com/githubsatellite#">Blog</a>
+                  <a href="https://blog.anupamdagar.com/githubsatellite">Blog</a>
                 </span>
               </div>
             </Stats>
           </InnerContent>
         </Card>
       </Item>
-      <Item as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item as="a" href="https://www.youtube.com/watch?v=sT0p7eSYAH0" target="_blank" rel="noopener noreferrer">
         <Card>
           <Thumbnail>
-            <img
-              src={fossasia}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={fossasia} alt="Fossasia Logo" />
           </Thumbnail>
           <Content>
             <h4>Lightening Talk</h4>
@@ -105,13 +128,10 @@ export const Conf = () => (
         </Card>
       </Item>
 
-      <Item as="a" href="#" target="_blank" rel="noopener noreferrer">
+      <Item>
         <Card>
           <Thumbnail>
-            <img
-              src={pragma}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={pragma} alt="Pragma Logo" />
           </Thumbnail>
           <Content>
             <h4>30 minute talk</h4>

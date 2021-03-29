@@ -16,10 +16,7 @@ export const Podcast = () => (
       >
         <Card>
           <Thumbnail>
-            <img
-              src={codish}
-              alt="I’m Anupam Dagar. I'm a Full Stack Developer and a Final Year Student at IIIT Allahabad, India"
-            />
+            <img src={codish} alt="Codish Logo" />
           </Thumbnail>
           <Content>
             <h4>Heroku Codish</h4>
