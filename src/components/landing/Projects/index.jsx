@@ -1,8 +1,9 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 import { Container, Card } from 'components/common';
 import starIcon from 'assets/icons/star.svg';
 import forkIcon from 'assets/icons/fork.svg';
+import cimble from 'assets/projects/cimbleC.png';
+import eth from 'assets/projects/eth.png';
 import hoxnox from 'assets/projects/hoxnox.png';
 import hasura from 'assets/projects/hasura.svg';
 import tabmaster from 'assets/projects/tabmaster.png';
@@ -19,6 +20,161 @@ export const Projects = () => (
   <Wrapper as={Container} id="projects">
     <h2>Projects</h2>
     <Grid>
+    <Item as="a" href="https://github.com/Anupam-dagar/cimble" target="_blank" rel="noopener noreferrer">
+        <Card>
+          <Thumbnail>
+            <img src={cimble} alt="Cimble" />
+          </Thumbnail>
+          <Content>
+            <h4>Cimble - Configuration Manager</h4>
+            <p>
+              A configuration management platform which allows to manage dynamic content over apps or on backend servers.
+              Allows a user to create multiple organisations and projects within it to better manage configurations.
+            </p>
+          </Content>
+          <InnerContent>
+            <Stats>
+              <div>
+                <img src={starIcon} alt="stars" />
+                <span>Built Using: Golang, gin, Next js, Mysql</span>
+              </div>
+            </Stats>
+          </InnerContent>
+          <InnerContent>
+            <Stats>
+              <div>
+                <img src={starIcon} alt="stars" />
+                <span>
+                  GitHub Backend:{' '}
+                  <a style={{ zIndex: 1 }} href="https://github.com/Anupam-dagar/cimble">
+                  https://github.com/Anupam-dagar/cimble
+                  </a>
+                </span>
+              </div>
+            </Stats>
+          </InnerContent>
+          <InnerContent>
+            <Stats>
+              <div>
+                <img src={starIcon} alt="stars" />
+                <span>
+                  GitHub Frontend:{' '}
+                  <a style={{ zIndex: 1 }} href="https://github.com/Anupam-dagar/cimble-fe">
+                  https://github.com/Anupam-dagar/cimble-fe
+                  </a>
+                </span>
+              </div>
+            </Stats>
+          </InnerContent>
+        </Card>
+      </Item>
+
+      <Item as="a" href="https://github.com/Anupam-dagar/eth-rsvp-staking" target="_blank" rel="noopener noreferrer">
+        <Card>
+          <Thumbnail>
+            <img src={eth} alt="Eth" />
+          </Thumbnail>
+          <Content>
+            <h4>Rsvp Eth Staking Dapp</h4>
+            <p>
+              An decentralised event management app built on ethereum to create and list events tickets. Upon ticket purchase, the eth is
+              staked in the smart contract which is then refunded to the participant once the rsvp is confirmed by the event organisers.
+            </p>
+          </Content>
+          <InnerContent>
+            <Stats>
+              <div>
+                <img src={starIcon} alt="stars" />
+                <span>Built Using: Solidity, Next js, Hardhat</span>
+              </div>
+            </Stats>
+          </InnerContent>
+          <InnerContent>
+            <Stats>
+              <div>
+                <img src={starIcon} alt="stars" />
+                <span>
+                  GitHub:{' '}
+                  <a style={{ zIndex: 1 }} href="https://github.com/Anupam-dagar/eth-rsvp-staking">
+                  https://github.com/Anupam-dagar/eth-rsvp-staking
+                  </a>
+                </span>
+              </div>
+            </Stats>
+          </InnerContent>
+        </Card>
+      </Item>
+
+      <Item as="a" href="https://github.com/Anupam-dagar/math-nft" target="_blank" rel="noopener noreferrer">
+        <Card>
+          <Thumbnail>
+            <img src={eth} alt="Eth" />
+          </Thumbnail>
+          <Content>
+            <h4>Nft Minting Dapp (Buildspace)</h4>
+            <p>
+              A NFT minting dapp which allows users to mint certain number of nfts per wallet while storing nfts minted on chain.
+            </p>
+          </Content>
+          <InnerContent>
+            <Stats>
+              <div>
+                <img src={starIcon} alt="stars" />
+                <span>Built Using: Solidity, Next js, Hardhat, Alchemy</span>
+              </div>
+            </Stats>
+          </InnerContent>
+          <InnerContent>
+            <Stats>
+              <div>
+                <img src={starIcon} alt="stars" />
+                <span>
+                  GitHub:{' '}
+                  <a style={{ zIndex: 1 }} href="https://github.com/Anupam-dagar/math-nft">
+                  https://github.com/Anupam-dagar/math-nft
+                  </a>
+                </span>
+              </div>
+            </Stats>
+          </InnerContent>
+        </Card>
+      </Item>
+
+      <Item as="a" href="https://github.com/Anupam-dagar/web3-starter" target="_blank" rel="noopener noreferrer">
+        <Card>
+          <Thumbnail>
+            <img src={eth} alt="Eth" />
+          </Thumbnail>
+          <Content>
+            <h4>Smart Contracts for Learning Solidity</h4>
+            <p>
+              Few smart contracts written for learning solidity including a decentralised kickstarter clone and a lottery smart contract.
+            </p>
+          </Content>
+          <InnerContent>
+            <Stats>
+              <div>
+                <img src={starIcon} alt="stars" />
+                <span>Built Using: Solidity, Next js, Web3js, Infura</span>
+              </div>
+            </Stats>
+          </InnerContent>
+          <InnerContent>
+            <Stats>
+              <div>
+                <img src={starIcon} alt="stars" />
+                <span>
+                  GitHub:{' '}
+                  <a style={{ zIndex: 1 }} href="https://github.com/Anupam-dagar/web3-starter">
+                  https://github.com/Anupam-dagar/web3-starter
+                  </a>
+                </span>
+              </div>
+            </Stats>
+          </InnerContent>
+        </Card>
+      </Item>
+
       <Item as="a" href="https://github.com/Anupam-dagar/Portfolio-Generator" target="_blank" rel="noopener noreferrer">
         <Card>
           <Thumbnail>
@@ -47,19 +203,6 @@ export const Projects = () => (
               <div>
                 <img src={starIcon} alt="stars" />
                 <span>Built Using: Django, Jquery, HTML, CSS</span>
-              </div>
-            </Stats>
-          </InnerContent>
-          <InnerContent>
-            <Stats>
-              <div>
-                <img src={starIcon} alt="stars" />
-                <span>
-                  Live at:{' '}
-                  <a style={{ zIndex: 1 }} href="https://hoxnox.herokuapp.com/">
-                    https://hoxnox.herokuapp.com/
-                  </a>
-                </span>
               </div>
             </Stats>
           </InnerContent>

@@ -8,7 +8,7 @@ export const Footer = () => (
     <Flex as={Container}>
       <Details>
         <h2>Anupam Dagar</h2>
-        <span>Copyright (c) 2015 gatsbyjs </span>
+        <span>Copyright (c) 2022 gatsbyjs </span>
       </Details>
       <Links>
         {social.map(({ id, name, link, icon }) => (

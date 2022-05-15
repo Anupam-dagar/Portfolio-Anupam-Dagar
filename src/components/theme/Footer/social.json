@@ -1,4 +1,11 @@
-[{
+[
+  {
+    "id": 1,
+    "name": "Twitter",
+    "link": "https://twitter.com/anupamdagr",
+    "icon": "/icons/twitter.svg"
+  },
+  {
     "id": 0,
     "name": "Github",
     "link": "https://github.com/Anupam-dagar",

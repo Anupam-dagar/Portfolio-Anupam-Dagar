@@ -13,7 +13,7 @@ module.exports = {
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
   social: {
-    twitter: '@siriusdagar',
+    twitter: '@anupamdagr',
   },
   contact: {
     email: 'dagaranupam@gmail.com',

@@ -12,11 +12,11 @@ export const Skills = () => (
       <Details>
         <h1>Hi There!</h1>
         <p>
-          I am Anupam Dagar, Software Engineer at Deutsche Telekom Digital Labs. I graduated from IIIT Allahabad in
-          India. I am a full stack developer and an active open source contributor and have contributed to Zulip,
-          Hasura, Fossasia, PublicLab, Elastic. I primarily use Python, Javascript and their different libraries and
-          frameworks but I keep my skillset diverse and have experience working on different technologies including
-          Kotlin and RxJava.
+          I am Anupam Dagar, Software Engineer at Ula. I graduated from IIIT Allahabad in
+          India with Bachelors of Technology in Information Technology. I am a full stack developer with 2 years of hands on experience building backend with golang, typescript
+          with data stores including mysql, elastic search, mongo db. I have been building frontend for my projects with react js and
+          next js and have worked with native android using kotlin in the past. I am currently in early stages of building dapps
+          using solidity.
         </p>
         <p>
           You can contact me at <a href="mailto:dagaranupam@gmail.com">dagaranupam@gmail.com</a>
